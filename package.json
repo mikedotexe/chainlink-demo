@@ -2,6 +2,7 @@
   "name": "chainlink-demo",
   "version": "0.1.0",
   "license": "UNLICENSED",
+  "homepage": "https://mikedotexe.github.io/chainlink-demo",
   "scripts": {
     "start": "echo The app is starting! It will automatically open in your browser when ready && env-cmd -f ./neardev/dev-account.env parcel src/index.html --open --no-cache",
     "build:web": "parcel build src/index.html --public-url ./",
