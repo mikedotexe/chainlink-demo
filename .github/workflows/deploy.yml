@@ -26,4 +26,5 @@ jobs:
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
+          deploy_key: ${{ secrets.CHAINLINK_ACTIONS_KEY }}
           publish_dir: ./build
