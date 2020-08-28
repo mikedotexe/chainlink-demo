@@ -82,13 +82,10 @@ export async function getTransactions(firstBlock, lastBlock) {
   // checks chunk details for transactions
   // if there are transactions in the chunk
   // find ones associated with our two accounts
-  const transactions = []
-  chunkDetails.map(chunk => {
-    chunk.transactions?.map(txs => {
-      if (txs.signer_id.includes(`oracle-node.${nearAcct}`)) {
-        transactions.push(txs);
-      }
-    });
+  let transactions = []
+  chunkDetails.forEach(chunk => {
+    const matchingTxs = chunk.transactions?.filter(tx => tx.signer_id.includes(`oracle-node.${nearAcct}`));
+    transactions = transactions.concat(matchingTxs);
   });
 
   // we want to exclude transactions from the oracle-node
