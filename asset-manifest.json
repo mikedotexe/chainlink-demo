@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.55226cd1.chunk.css",
-    "main.js": "/static/js/main.a291754f.chunk.js",
-    "main.js.map": "/static/js/main.a291754f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1be03035.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1be03035.js.map",
-    "static/js/2.a27fdd73.chunk.js": "/static/js/2.a27fdd73.chunk.js",
-    "static/js/2.a27fdd73.chunk.js.map": "/static/js/2.a27fdd73.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a2be5889c409955b32cd54ddcaabc4ff.js": "/precache-manifest.a2be5889c409955b32cd54ddcaabc4ff.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.55226cd1.chunk.css.map": "/static/css/main.55226cd1.chunk.css.map",
-    "static/js/2.a27fdd73.chunk.js.LICENSE.txt": "/static/js/2.a27fdd73.chunk.js.LICENSE.txt",
-    "static/media/nearkat-one.png": "/static/media/nearkat-one.c5872d7f.png",
-    "static/media/spinner.gif": "/static/media/spinner.420292ff.gif"
+    "main.css": "/chainlink-demo/static/css/main.55226cd1.chunk.css",
+    "main.js": "/chainlink-demo/static/js/main.a291754f.chunk.js",
+    "main.js.map": "/chainlink-demo/static/js/main.a291754f.chunk.js.map",
+    "runtime-main.js": "/chainlink-demo/static/js/runtime-main.a5f05953.js",
+    "runtime-main.js.map": "/chainlink-demo/static/js/runtime-main.a5f05953.js.map",
+    "static/js/2.c8d233f2.chunk.js": "/chainlink-demo/static/js/2.c8d233f2.chunk.js",
+    "static/js/2.c8d233f2.chunk.js.map": "/chainlink-demo/static/js/2.c8d233f2.chunk.js.map",
+    "index.html": "/chainlink-demo/index.html",
+    "precache-manifest.21f428f73ca87db18fcdd2d2f8fe3d83.js": "/chainlink-demo/precache-manifest.21f428f73ca87db18fcdd2d2f8fe3d83.js",
+    "service-worker.js": "/chainlink-demo/service-worker.js",
+    "static/css/main.55226cd1.chunk.css.map": "/chainlink-demo/static/css/main.55226cd1.chunk.css.map",
+    "static/js/2.c8d233f2.chunk.js.LICENSE.txt": "/chainlink-demo/static/js/2.c8d233f2.chunk.js.LICENSE.txt",
+    "static/media/nearkat-one.png": "/chainlink-demo/static/media/nearkat-one.c5872d7f.png",
+    "static/media/spinner.gif": "/chainlink-demo/static/media/spinner.420292ff.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.1be03035.js",
-    "static/js/2.a27fdd73.chunk.js",
+    "static/js/runtime-main.a5f05953.js",
+    "static/js/2.c8d233f2.chunk.js",
     "static/css/main.55226cd1.chunk.css",
     "static/js/main.a291754f.chunk.js"
   ]
