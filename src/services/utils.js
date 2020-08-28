@@ -4,7 +4,7 @@ import { connect, keyStores, KeyPair } from 'near-api-js'
 const nearConfig = {
   networkId: 'testnet',
   nodeUrl: 'https://rpc.testnet.near.org',
-  contractName: `client.${process.env.NEAR_ACCT}`,
+  contractName: `client.${process.env.REACT_APP_NEAR_ACCT}`,
   walletUrl: 'https://wallet.testnet.near.org',
   helperUrl: 'https://helper.testnet.near.org'
 };
@@ -17,7 +17,7 @@ let clientAcct;
 
 async function connectToNear() {
   const keyStore = new keyStores.InMemoryKeyStore()
-  const keyPair = KeyPair.fromString(process.env.CLIENT_PRIVATE_KEY)
+  const keyPair = KeyPair.fromString(process.env.REACT_APP_CLIENT_PRIV_KEY)
   //sets key in memory
   await keyStore.setKey(nearConfig.networkId, nearConfig.contractName, keyPair)
   near = await connect(Object.assign({ deps: { keyStore } }, nearConfig))

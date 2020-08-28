@@ -1,7 +1,8 @@
 import { getClientAcct, getNear } from './utils';
 const bs58 = require('bs58');
 
-const nearAcct = process.env.NEAR_ACCT
+const nearAcct = process.env.REACT_APP_NEAR_ACCT
+console.log('nearAcct', nearAcct);
 
 export async function getLatestBlockID() {
   const near = await getNear();
