@@ -20,8 +20,8 @@ jobs:
       - name: Build page
         run: npm run build
         env:
-          - REACT_APP_NEAR_ACCT: ${{ secrets.REACT_APP_NEAR_ACCT }}
-          - REACT_APP_CLIENT_PRIV_KEY: ${{ secrets.REACT_APP_CLIENT_PRIV_KEY }}
+          REACT_APP_NEAR_ACCT: ${{ secrets.REACT_APP_NEAR_ACCT }}
+          REACT_APP_CLIENT_PRIV_KEY: ${{ secrets.REACT_APP_CLIENT_PRIV_KEY }}
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
